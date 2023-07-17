@@ -1,0 +1,66 @@
+.homeMain {
+  background-color: rgba(4, 3, 56, 0.952);
+}
+
+.btnHome {
+  width: 200px;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 0;
+  border-radius: 50px;
+  margin: 20px 10px;
+  cursor: pointer;
+  border: 2px solid orangered;
+  color: white;
+}
+
+.btnHome:hover {
+  background-color: orangered;
+  border: orangered;
+  color: white;
+}
+
+.btnCenter {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.homeh4 {
+  padding-top: 150px;
+  margin: auto 0;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.homeh1 {
+  color: #97f107;
+  font-weight: bold;
+  padding-top: "20px";
+  text-align: center;
+}
+
+.homeheader {
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+
+.homeheader1 {
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+}
+
+.header2 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.span1 {
+  color: rgb(255, 0, 191);
+}
+
+.span2 {
+  color: rgb(255, 0, 191);
+}

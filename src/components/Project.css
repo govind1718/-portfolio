@@ -1,0 +1,79 @@
+.box {
+  height: 340px;
+  width: 300px;
+}
+.p1 {
+  padding: 10px;
+  background-color: rgba(4, 3, 56, 0.952);
+  padding-bottom: 220px;
+}
+.p2 {
+  text-align: center;
+  color: #de3163;
+  font-weight: bold;
+}
+.projectMain {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.projectChild {
+  display: flex;
+}
+.projectTitle1 {
+  text-align: center;
+}
+.projectTitle {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.projectDescription {
+  padding-left: 10px;
+}
+.btnProject {
+  width: 200px;
+  font-size: 17px;
+  padding: 8px 0;
+  margin: 20px 10px;
+  cursor: pointer;
+  background-color: rgb(10, 181, 238);
+  color: white;
+}
+
+.btnProject:hover {
+  background-color: orangered;
+  border: orangered;
+  color: white;
+}
+.imgBox {
+  height: 150px;
+  width: 150px;
+  margin-left: 80px;
+  padding: 10px;
+}
+.cardbaground {
+  padding-top: 20px;
+  background-color: rgb(10, 181, 238);
+  color: white;
+}
+.cardbaground1 {
+  background-color: white;
+  color: black;
+}
+@media (max-width: 768px) {
+  .box {
+    height: 360px;
+    width: 320px;
+  }
+
+  .projectMain {
+    padding-top: 50px;
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .p1 {
+    padding-bottom: 100px;
+  }
+}

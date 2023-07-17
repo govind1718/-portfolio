@@ -1,0 +1,93 @@
+.ContactMain {
+  padding-top: 10px;
+  background-color: rgba(4, 3, 56, 0.952);
+  padding-bottom: 80px;
+}
+.ContactMain1 {
+  display: flex;
+  margin-top: 50px;
+}
+.ContactMain2 {
+  padding-left: 150px;
+}
+
+.h1 {
+  text-align: center;
+  color: #de3163;
+  font-weight: bold;
+}
+
+input {
+  height: 45px;
+  width: 300px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.textarea {
+  height: 170px;
+  width: 610px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.ContactNested {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.submit {
+  width: 610px;
+  font-size: 17px;
+  padding: 15px 0;
+  border-radius: 5px;
+  margin: 20px 0px;
+  cursor: pointer;
+  background-color: orangered;
+  color: white;
+}
+.location {
+  margin-left: 50px;
+  color: white;
+}
+.subject {
+  width: 610px;
+}
+.email {
+  margin-left: 10px;
+}
+.phoneIcon {
+  display: flex;
+  margin-top: 40px;
+  color: white;
+}
+.emailIcon {
+  display: flex;
+  margin-top: 40px;
+  color: white;
+}
+.p11 {
+  padding-left: 20px;
+}
+@media (max-width: 768px) {
+  .ContactMain2 {
+    padding-left: 15px;
+  }
+  .ContactMain1 {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  input {
+    height: 45px;
+    width: 163px;
+  }
+  .textarea {
+    height: 170px;
+    width: 335px;
+  }
+  .submit {
+    width: 335px;
+  }
+  .subject {
+    width: 335px;
+  }
+}

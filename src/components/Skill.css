@@ -1,0 +1,46 @@
+.skillImages {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 30px;
+  /* background-color: brown; */
+}
+.imgBox {
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+}
+.skillsh1 {
+  padding-top: 10px;
+  text-align: center;
+  color: #de3163;
+  font-weight: bold;
+}
+.titleSkill {
+  color: white;
+  padding-left: 100px;
+}
+.skillMain {
+  background-color: rgba(4, 3, 56, 0.952);
+  padding-bottom: 220px;
+}
+@media (max-width: 768px) {
+  .skillImages {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+  }
+  .imgBox {
+    margin-right: 80px;
+  }
+  .titleSkill {
+    padding-left: 10px;
+    padding: 20px;
+  }
+  .skillMain {
+    padding-bottom: 100px;
+  }
+}
